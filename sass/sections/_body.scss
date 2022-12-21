@@ -1,0 +1,6 @@
+
+body{
+    font-family: $fontPrimary;
+    @include font(400, 16px, 0.03em);
+    color:var(--color-main);
+    }

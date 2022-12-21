@@ -1,0 +1,30 @@
+$fontPrimary: Roboto,
+    sans-serif;
+$fontLogo: Raleway,
+    sans-serif;
+    
+:root{
+    // --font-ral:"Raleway", sans-serif;
+    // --font-rob:"Roboto", sans-serif;
+    --font-weig:500;
+    --font-weig-b:700;
+    
+    --color-change:#2196F3;
+    --color-studio:#000000;
+    --color-link:#212121;
+    --color-bckg:#2F303A;
+    --color-white:#FFFFFF;
+    --color-main:#757575;
+    --color-footer-mail:rgba(255, 255, 255, 0.6);
+    --color-filter:#F5F4FA;
+    --color-change-butt:#188CE8;
+    --color-client:#f5f5f5;
+    --color-border-cli:#AFB1B8;
+    
+    --line-nav:1.14;
+    --line-title:1.568;
+    --line-logo:1.19;
+    
+    --tran-dur: 250ms;
+    --tran-tim-fun: cubic-bezier(0.4, 0, 0.2, 1);
+    }

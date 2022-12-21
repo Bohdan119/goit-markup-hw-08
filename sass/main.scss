@@ -1,0 +1,34 @@
+@import '../sass/utils/variables';
+@import './utils/mixin';
+@import './sections/body';
+@import './components/title';
+
+@import './components/buttons/main-button';
+@import './components/buttons/modal-button';
+@import './components/buttons/portfolio-button';
+@import './components/buttons/footer-button';
+@import './components/link';
+
+@import './sections/reset';
+@import './components/section';
+@import './components/img';
+@import './components/conteiner';
+@import './components/hidens';
+
+@import './sections/header';
+
+@import './sections/heroy';
+
+@import './sections/skill';
+
+@import './sections/work';
+
+@import './sections/team';
+
+@import './sections/client';
+
+@import './sections/footer';
+
+@import './sections/modal';
+
+@import './sections/portfolio';
