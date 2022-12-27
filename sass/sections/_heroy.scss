@@ -7,12 +7,28 @@
     background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)), 
-    url(../images/fon_img.jpg);
+    url(../images/header_480.jpg);
     max-width: 100%;
     
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    @media screen and (min-width: 768px) {
+        background-color: var(--color-bckg);
+            background-image: linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+                url(../images/header_768.jpg);
+    }
+
+        @media screen and (min-width: 1200px ) {
+            background-color: var(--color-bckg);
+            background-image: linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+                url(../images/fon_img.jpg);
+        }
     
     &__title{
     // padding-left: 252px;

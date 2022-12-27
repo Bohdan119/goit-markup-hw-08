@@ -10,6 +10,10 @@ display: flex;
     right: 15px;
     border: none;
     background-color: var(--color-width);
+
+    @media screen and (min-width:767px) {
+    display: none;
+    }
     }
 }
 
