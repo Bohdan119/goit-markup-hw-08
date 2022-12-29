@@ -22,14 +22,15 @@
         padding-bottom: 21px;
         padding-left: 15px;
         padding-right: 15px;
+        @media screen and (min-width:1200px) {
+            padding-top: 32px;
+            padding-bottom: 32px;
+            
+        }
 
     }
     
     .header-logo{
-    @media screen and(min-width:1200px) {
-    
-        
-    }
     
     &__studio{
     font-family:$fontLogo;
@@ -62,10 +63,11 @@
     {display: none;
 
     @media screen and(min-width:768px) {
-        // list-style: none;
         display: flex;
+        align-items: center;
         gap: 50px;
     }
+
     }
     
 
@@ -93,15 +95,21 @@
             align-items: center;
         }
 
-    @media screen and (min-width:1200px) {
-    display: flex;
-    }
+        @media screen and(min-width: 1200px) {
+        display:flex;
+        align-items: center;
+        gap: 40px;
+        }
 
     &__list{
     @media screen and (min-width: 768px) {
         margin-top: 10px;
     }
     }
+    }
+    .robot{
+        display: flex;
+        align-items: center;
     }
     
     .contacts__tel,
@@ -112,9 +120,7 @@
     line-height:var(--line-nav);
     letter-spacing: 0.02em;
     color:var(--color-main);
-    @extend %position;
-    display: flex;
-    align-items: center;
+    // @extend %position;
     
     transition-property: color;
     transition-duration: var(--tran-dur);

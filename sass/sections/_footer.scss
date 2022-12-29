@@ -1,7 +1,7 @@
 footer{
     background-color: var(--color-bckg);
     padding-top: 60px;
-    padding-bottom: 60px;   
+    padding-bottom: 60px;  
     }
 
     .footer-content{
@@ -10,6 +10,18 @@ footer{
     gap:60px;
     align-items: baseline;
     justify-content: center;
+    
+    @media screen and (min-width:768px) {
+        display: flex;
+        justify-content:space-around;
+    }
+
+        @media screen and (min-width:1200px) {
+        display: flex;
+        flex-wrap: nowrap;
+        
+        }
+
     }
 
     .footer-logo{
@@ -112,15 +124,22 @@ footer{
     
     .footer-send{
     margin-left: auto;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
+
+    @media screen and (min-width:768px) {
+        display: flex;
+        }
+
+    @media screen and (min-width:1200px) {
+        display: flex;
+    }
     }
     
     .footer-flex{
     display: block;
     width: 100%;
-    
     }
     .footer-flex__post{
     display: block;
