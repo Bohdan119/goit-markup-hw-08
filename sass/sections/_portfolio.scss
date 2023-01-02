@@ -12,12 +12,6 @@ padding: 0;
 margin: 0;
 } 
 
-// .portfolio-item{
-// display: flex;
-// flex-wrap: wrap;
-// justify-content: center;
-// }
-
 .portfolio-link{
 display: block;
 color: currentColor;
@@ -36,9 +30,14 @@ box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16),
 
 .portfolio-image .portfolio-item{
 width: 100%;
-// flex-basis: calc((100%/3 - 30px));
 
+@media screen and (min-width:768px) {
+        width:calc((100% - 30px)/2);
+    }
 
+    @media screen and (min-width:1200px) {
+        width: calc((100% - 60px)/3);
+    }
 }
 
 /* ------------FLEX-end------------ */
