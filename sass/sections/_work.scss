@@ -1,9 +1,12 @@
 .work.section{
-    
-    width: calc((100% - 60px)/3);
 
-@media screen and (max-width:1199px) {
+@media screen and (min-width:480px) and (max-width:1199px) {
     display: none;
+}
+
+@media screen and (min-width:1200px) {
+    width: calc((100% - 60px)/3);
+    
 }
 }
     
