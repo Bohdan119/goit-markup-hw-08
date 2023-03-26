@@ -1,15 +1,21 @@
 .work.section{
 
-@media screen and (min-width:480px) and (max-width:1199px) {
+@media screen and (min-width: 0px) and (max-width: 1199px) {
     display: none;
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
     width: calc((100% - 60px)/3);
     
-}
+// }
 }
     
+.work-title{
+    @media screen and (min-width: 0px) and (max-width: 1199px) {
+            display: none;
+        }
+}
+
     .work-list
     {list-style: none;
     display: flex;
@@ -17,6 +23,10 @@
     gap: 30px;
     justify-content:center;
     padding-bottom: 60px;
+
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+        display: none;
+    }
 
     &__text{
     position: relative;
